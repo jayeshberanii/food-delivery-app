@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.App{
+  padding-bottom: 30px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.863);
+}
+.header{
+
+  z-index: 1;
+  height: 4rem;  
+  background: rgb(114, 3, 3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.cart-btn{
+  width: 12rem;
+  background: rgb(59, 1, 1);
+  height: 2.5rem;
+  font-weight:bold;
+  border: 0;
+}
+.cart-span{  
+  background: rgb(114, 3, 3);
+}
+.background{
+  
+  box-sizing: border-box;
+  height:50vh;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.img-fluid1{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.floating-label{  
+  position:absolute; 
+  top: 35%; 
+  left: 32%;
+  height: 25%;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.829);
+  border: 0;
+    
+}
+.head-label{
+  font-size: 2vw;
+}
+.label{
+  font-size: 1vw;
+  margin-top: 3%;
+  color: rgba(255, 255, 255, 0.705);
+}
+.Meal-type{
+  font-style: italic;
+  font-size: 13px;
+}
+.Meal-price{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(211, 138, 4);
+}
+.Meal-input{
+  text-align: center;
+  height: 25px;
+  width: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+input[type="number"]{
+  background-color: rgb(204, 204, 204);
+  outline: none;
+}
+.add-btn{
+  height:30px;
+  width: 100px;
+  background: rgb(231, 157, 20);
+  text-align: center;
+  font-weight: bold;
+}
